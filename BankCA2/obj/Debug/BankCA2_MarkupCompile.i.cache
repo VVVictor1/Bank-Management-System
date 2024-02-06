@@ -1,0 +1,20 @@
+﻿BankCA2
+
+
+winexe
+C#
+.cs
+C:\Users\MSI\Documents\BankCA2\BankCA2\obj\Debug\
+BankCA2
+none
+false
+DEBUG;TRACE
+C:\Users\MSI\Documents\BankCA2\BankCA2\App.xaml
+9629928944
+21898511173
+161299148841
+16-450817376
+DepositFunds.xaml;EditAcc.xaml;EM_Confirmation.xaml;MainWindow.xaml;NewAccount.xaml;Registration.xaml;Transaction.xaml;Transfer.xaml;Withdraw Funds.xaml;
+
+True
+

@@ -1,0 +1,14 @@
+﻿<Window x:Class="BankCA2.Transaction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankCA2"
+        mc:Ignorable="d"
+        Title="Transaction" Height="626.4" Width="1478.2">
+    <Grid Margin="0,0,29.2,73.8">
+        <DataGrid x:Name="dgvdata" HorizontalAlignment="Left" Height="345" Margin="35,130,0,0" VerticalAlignment="Top" Width="995" SelectionChanged="dgvdata_SelectionChanged"/>
+        <Button Content="View Transaction" HorizontalAlignment="Left" Margin="1050,55,0,0" VerticalAlignment="Top" Width="180" Height="75" Click="Button_Click" FontSize="20"/>
+
+    </Grid>
+</Window>

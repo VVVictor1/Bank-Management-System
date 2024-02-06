@@ -1,0 +1,22 @@
+﻿<Window x:Class="BankCA2.EM_Confirmation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankCA2"
+        mc:Ignorable="d"
+        Title="EM_Confirmation" Height="428.4" Width="810.8">
+    <Grid Margin="41,0,180.8,82.2">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Label Content="We've sent an information code to your email " HorizontalAlignment="Left" Margin="169,94,0,0" VerticalAlignment="Top" Height="34" Width="371" Background="#FFE1FCD7" FontSize="18"/>
+        <Label Content="OTP Verification" HorizontalAlignment="Left" Margin="219,18,0,0" VerticalAlignment="Top" FontSize="36" Height="52" Width="276"/>
+        <Label Content="Confiramtion Code" HorizontalAlignment="Left" Margin="65,173,0,0" VerticalAlignment="Top" Height="38" FontSize="22" Width="201"/>
+        <TextBox x:Name="txtCode" HorizontalAlignment="Left" Height="38" Margin="271,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203" FontSize="26"/>
+        <Button x:Name="btnConfirm" Content="Confirm" HorizontalAlignment="Left" Margin="327,263,0,0" VerticalAlignment="Top" Width="129" Height="46" FontSize="22" Click="btnConfirm_Click"/>
+        <Label x:Name="lblEmail" Content="" Margin="181,128,0,0" VerticalAlignment="Top" FontSize="20" Height="40" Width="341" HorizontalAlignment="Left"/>
+
+    </Grid>
+</Window>

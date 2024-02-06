@@ -1,0 +1,9 @@
+C:\Users\MSI\Documents\BankCA2\BIZ\bin\Debug\BIZ.dll
+C:\Users\MSI\Documents\BankCA2\BIZ\bin\Debug\BIZ.pdb
+C:\Users\MSI\Documents\BankCA2\BIZ\bin\Debug\DAL.dll
+C:\Users\MSI\Documents\BankCA2\BIZ\bin\Debug\DAL.pdb
+C:\Users\MSI\Documents\BankCA2\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\BankCA2\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\BankCA2\BIZ\obj\Debug\BIZ.dll
+C:\Users\MSI\Documents\BankCA2\BIZ\obj\Debug\BIZ.pdb
+C:\Users\MSI\Documents\BankCA2\BIZ\obj\Debug\BIZ.csproj.CopyComplete

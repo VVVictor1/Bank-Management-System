@@ -1,0 +1,6 @@
+C:\Users\MSI\Documents\BankCA2\DAL\bin\Debug\DAL.dll
+C:\Users\MSI\Documents\BankCA2\DAL\bin\Debug\DAL.pdb
+C:\Users\MSI\Documents\BankCA2\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\BankCA2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\BankCA2\DAL\obj\Debug\DAL.dll
+C:\Users\MSI\Documents\BankCA2\DAL\obj\Debug\DAL.pdb

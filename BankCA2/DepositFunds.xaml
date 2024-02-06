@@ -1,0 +1,26 @@
+﻿<Window x:Class="BankCA2.DepositFunds"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankCA2"
+        mc:Ignorable="d"
+        Title="DepositFunds" Height="526.3" Width="988.2">
+    <Grid Margin="0,0,23.8,26">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="485*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Content="Account no:" HorizontalAlignment="Left" Margin="120,54,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Calisto MT" Height="34" Width="115"/>
+        <ComboBox x:Name="cboacc" HorizontalAlignment="Left" Margin="260,54,0,0" VerticalAlignment="Top" Width="115" SelectionChanged="cboacc_SelectionChanged" Height="33" FontSize="20"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="120,166,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Maiandra GD" Height="34" Width="82"/>
+        <TextBox x:Name="txtamount" HorizontalAlignment="Left" Height="27" Margin="260,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" FontSize="20"/>
+        <Button x:Name="btndeposit" Content="Deposit" HorizontalAlignment="Left" Margin="100,249,0,0" VerticalAlignment="Top" Width="135" Height="60" FontSize="20" Click="btndeposit_Click"/>
+        <Label Content="Balance" HorizontalAlignment="Left" Margin="120,102,0,0" VerticalAlignment="Top" FontSize="20" Height="34" Width="82"/>
+        <TextBox x:Name="txtbalance" HorizontalAlignment="Left" Height="28" Margin="260,108,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="115" IsReadOnly="True" FontSize="20" BorderBrush="Gray" SelectionBrush="White"/>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="88" Margin="20,335,0,0" VerticalAlignment="Top" Width="920"/>
+        <Button x:Name="btnrefresh" Content="🔄" HorizontalAlignment="Left" Margin="415,50,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="White" FontSize="24" Background="White" Click="btnrefresh_Click" OpacityMask="White"/>
+        <Label Content="Deposit" HorizontalAlignment="Left" Margin="474,0,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Adobe Garamond Pro" Foreground="#FF18433B"/>
+
+    </Grid>
+</Window>
